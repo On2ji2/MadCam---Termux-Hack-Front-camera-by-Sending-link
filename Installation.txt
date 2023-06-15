@@ -1,0 +1,77 @@
+How to install MadCam tool in Termux?
+Step 1:
+Update and upgrade the termux So that we will not get errors while installing the MadCam tool.
+apt update && apt upgrade -y
+MadCam - Termux Hack Front camera by Sending link
+ Press N if ask about the version.
+
+
+
+Step 2:
+Install dependencies for the MadCam tool.
+apt install php wget git -y
+MadCam - Termux Hack Front camera by Sending link
+
+This will install Php wget and git in termux which will be used while using the MadCam tool. If you already have any of this you can remove the name from the command while installing.
+
+
+Step 3:
+Now all the dependencies are installed in your termux and now we can install the Madcam tool in termux using the command given below. The file size of this tool is so light, just copy and paste the below command and the tool will be installed in 10 sec.
+git clone https://github.com/mrmadbhai/MadCam.git
+MadCam - Termux Hack Front camera by Sending link
+
+
+Step 4:
+
+Now Change the directory to Madcam, If you don't know the basic commands of termux then its highly recommended to check this blog:[termux all basic command]
+cd MadCam
+MadCam - Termux Hack Front camera by Sending link
+
+Step 5:
+
+Now we just need to install all the dependencies that we need to run this tool ( in step 2 we already have done it but by doing this step the tool will verify if everything is in the proper place or not). just type the below command and the tool will do everything for you.
+
+bash installmad.sh
+MadCam - Termux Hack Front camera by Sending link
+these all are one-time processes, after this you can use this tool any time you want.
+
+
+
+How to Use MadCam in Termux?
+Step 1:
+After installation, the tool will automatically run but if you restart termux then you need to first change your directory to the MadCam folder (just follow step 4 above and then start from here).
+bash madcam.sh
+MadCam - Termux Hack Front camera by Sending link
+
+
+
+Step 2:
+If you see EDUCATIONAL PURPOSES ONLY? Just type y and press enter.
+Now the most important thing !!!!!!Please turn on your hotspot.!!!!!!!.
+Now you will see choose the port forwarding option, just type 1 and press enter wait till you see a link on the terminal.
+
+MadCam - Termux Hack Front camera by Sending link
+
+If it is your First time using this Tool, It will install NGrok In Termux. This process can take 1 min if you have slow internet. (also if you are not getting the link, please restart your termux and it will solve the issue.)
+
+
+
+
+Step 3:
+Now you will get a link, just send this link to the Victim and wait, when the Victim will click on this link, you will see the Ip Address of the victim then you will get multiple image files in your termux app. Which will be captured from the victim's front camera. You will get more than 1 image if the victim stays on the page for a long time.If you wanna make you NgrokURL Look more like Real site URL (ex. www.Facebook.com) Then Read this Post : [ Termux Maskphish : Mask URL in Termux ]
+
+MadCam - Termux Hack Front camera by Sending link
+
+Note : If this tool is not generating links, then you can try [ How to Hack Front camera by Sending a link using Termux-2022 ]
+
+
+Step 4:
+Now when you done capturing the images just press ctrl+c button and type ls command and you will see image files.
+ls
+MadCam - Termux Hack Front camera by Sending link
+
+
+Step 5:
+Now to see the images you just have to type the below command and you will able to see the images in the same termux app. if you wanna know more about how to directly open files in termux then you should read this post [ How to Open any File In Termux - 2020 ].
+termux-open Imagename
+MadCam - Termux Hack Front camera by Sending link
